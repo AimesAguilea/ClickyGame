@@ -27,8 +27,8 @@ class ClickyGame extends React.Component {
   // there is an onClick attached to each flower via flowerCard.js
   // 'on-click' the selected flower's value is found and placed in a const variable
   // by .find() through the unselectedFlowers array, finding the image that matches the 'clicked'
-  selectFlower = breed => {
-    const findFlower = this.state.unselectedFlowers.find(item => item.breed === breed);
+  selectFlower = name => {
+    const findFlower = this.state.unselectedFlowers.find(item => item.name === name);
     // THIRD: when an image is clicked and it is not found in the array (undefined)
     // we set a new state for the highScore, if the current count is greater than the high score,
     // than that 'count' is the new highScore.
@@ -47,7 +47,7 @@ class ClickyGame extends React.Component {
     // we filter throught the array and find all images that do not match that images value,
     // and create a new array with just those images.
     else {
-      const newFlowers = this.state.unselectedFlowers.filter(item => item.breed !== breed);
+      const newFlowers = this.state.unselectedFlowers.filter(item => item.name !== name);
       // SECOND: we establish a new state for the unslectedFlowers array, updated with the newFlowers array value,
       // which holds one less image in it. So each time a new image in clicked, the array gets smaller and smaller.
       // the state of the 'count' is incremented by one every time the image registers and one found in the
@@ -75,13 +75,13 @@ class ClickyGame extends React.Component {
         </div>
         <div className="mb-4">
           <div className="card-header">
-            <h3>Div that holds the images.</h3>
+            <h3>Click images, but not the same one twice.</h3>
           </div>
           <div className="card-body">
             {
               this.state.flowers.map(flower => (
                 <FlowerCard
-                  breed={flower.breed}
+                  name={flower.name}
                   image={flower.image}
                   selectedFlower={this.selectFlower}
                   count={this.state.count}

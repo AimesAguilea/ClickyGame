@@ -6,10 +6,10 @@ const FlowerCard = props => (
   <div className="card">
     <div className="img-container">
       <a
-        onClick={() => props.selectedFlower(props.breed)}
-        className={props.curScore === 0}
+        onClick={() => props.selectedFlower(props.name)}
+        className={props.count === 0}
       >
-        <img alt={props.breed} src={props.image} />
+        <img alt={props.name} src={props.image} />
       </a>
     </div>
   </div>

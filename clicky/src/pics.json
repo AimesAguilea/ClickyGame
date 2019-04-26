@@ -1,50 +1,50 @@
 [
     {
-        "breed": "Flower1",
+        "name": "Flower1",
         "image": "https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529__340.jpg"
     },
     {
-        "breed": "Flower2",
+        "name": "Flower2",
         "image": "https://edecorati.com/data/out/198/beautiful-rose-pictures_292455946.jpeg"
     },
     {
-        "breed": "Flower3",
+        "name": "Flower3",
         "image": "https://s3.amazonaws.com/CFSV2/obituaries/traditional/stock/3931-5841-geranium.jpg"
     },
     {
-        "breed": "Flower4",
+        "name": "Flower4",
         "image": "http://www.woodwildflowers.com/uploads/5/7/6/7/5767336/s407795995942237733_p80_i4_w640.jpeg"
     },
     {
-        "breed": "Flower5",
+        "name": "Flower5",
         "image": "https://s3.amazonaws.com/site-files-prod/FiftyFlowers/Image/Product/asiatic-lily-orange-bloom-350_2ce8bfdc.jpg"
     },
     {
-        "breed": "Flower6",
+        "name": "Flower6",
         "image": "https://www.whiteflowerfarm.com/mas_assets/cache/image/b/a/b/2987.Jpg"
     },
     {
-        "breed": "Flower7",
+        "name": "Flower7",
         "image": "http://www.silkweddingdesigns.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/l/a/large_black_gerbera.jpg"
     },
     {
-        "breed": "Flower8",
+        "name": "Flower8",
         "image": "https://cdn.shopify.com/s/files/1/0003/3462/6852/products/image_ba8ec6c3-d509-4cf4-ad38-e694a89e84ce_280x@2x.jpg?v=1547773503"
     },
     {
-        "breed": "Flower9",
+        "name": "Flower9",
         "image": "https://s3.amazonaws.com/site-files-prod/FiftyFlowers/Image/Product/peony-sarah-bernhardt-bloom-500_6c32f387.jpg"
     },
     {
-        "breed": "Flower10",
+        "name": "Flower10",
         "image": "http://3.bp.blogspot.com/-B_3_KkOFYhM/T9Ycmcf4ifI/AAAAAAAANeQ/UbPDJ7kL34k/s1600/Pimpernel+flowers+.+(3).jpg"
     },
     {
-        "breed": "Flower11",
+        "name": "Flower11",
         "image": "http://eneriknits.com/wp-content/uploads/2017/09/lotus-215460_640.jpg"
     },
     {
-        "breed": "Flower12",
+        "name": "Flower12",
         "image": "http://www.microscopy-uk.org.uk/mag/imgjun04/Photo08.jpg"
     }
 ]
